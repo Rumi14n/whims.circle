@@ -15,21 +15,5 @@ body {
     box-shadow: 0 0 20px rgba(255,255,255,0.8),
     inset 0 0 20px rgba(255,255,255,0.7);
 
-    /*regmented line */
-    background: conic-gradient(
-        from 0deg,
-        rgba(255,255,255,0.2) 0deg 5deg,
-        rgba(255,255,255,0) 5deg 15deg,
-        rgba(255,255,255,0.2) 15deg 20deg,
-        rgba(255,255,255,0) 20deg 35deg
-    );
-
-    animation: rodate 12s linear infinite;
-}
 
 
-@keyframes orbit {
-    0% { transform: rotate(0deg) translateX(180px) rotate(0deg); }
-    100% { transform: rotate(360deg) translateX(180px) rotate(-360deg); }
-
-}
