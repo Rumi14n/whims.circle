@@ -27,21 +27,9 @@ body {
     animation: rodate 12s linear infinite;
 }
 
-@keyframes rotate {
-    to { transform: rotate(350deg); }
-}
-
-.dot {
-    width: 25px;
-    height: 25px;
-    background: #c1beac;
-    border-radius: 50%;
-    position: absolute;
-
-    animation: orbit 6s linear infinite;
-}
 
 @keyframes orbit {
     0% { transform: rotate(0deg) translateX(180px) rotate(0deg); }
     100% { transform: rotate(360deg) translateX(180px) rotate(-360deg); }
+
 }
