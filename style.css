@@ -1,5 +1,5 @@
 body {
-    background: #0f0f0f;
+    background: transparent;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,6 +15,7 @@ body {
     /* gloing edge */
     box-shadow: 0 0 20px rgba(255,255,255,0.8),
     inset 0 0 20px rgba(255,255,255,0.7);
+
 
 
 
